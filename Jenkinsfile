@@ -4,7 +4,7 @@ pipeline {
 	stages {
 		stage("Fetch Code") {
 			steps {
-				git branch: 'main', url: 'https://github.com/helpingpeopletolearn/galaxy-app.git'
+				git branch: 'main', url: 'https://github.com/shivanibezalwar11sb-cpu/galaxy-app'
 			}
 		}
 		stage("Install Dep") {
