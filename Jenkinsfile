@@ -15,7 +15,7 @@ pipeline {
 		}
 		stage("Deploy App") {
 			steps {
-				sh 'sudo cp -R * /var/www/html/'
+				sh 'sudo cp -R* /var/www/html/'
 			}
 		}
 	}
